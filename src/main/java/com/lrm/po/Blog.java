@@ -58,7 +58,6 @@ public class Blog {
         this.tagIds = tagsToIds(this.getTags());
     }
 
-    //1,2,3
     private String tagsToIds(List<Tag> tags) {
         if (!tags.isEmpty()) {
             StringBuilder ids = new StringBuilder();
